@@ -1,4 +1,5 @@
-$phoneColor: #4a3a66;
+$phoneColor: #2a2222;
+// $phoneColor: #4a3a66;
 
 body {
     margin: 0 auto;
@@ -7,11 +8,13 @@ body {
 }
 
 .mobileContainer {
-    height: 100vh;
+    min-height: 100vh;
     background: #eaeaea;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 14px;
+    box-sizing: border-box;
 
     .mobile {
         background: white;

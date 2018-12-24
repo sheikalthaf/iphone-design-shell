@@ -5,18 +5,20 @@ body {
 }
 
 .mobileContainer {
-  height: 100vh;
+  min-height: 100vh;
   background: #eaeaea;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 14px;
+  box-sizing: border-box;
 }
 
 .mobileContainer .mobile {
   background: white;
   height: 665px;
   width: 324px;
-  border: 10px solid #4a3a66;
+  border: 10px solid #2a2222;
   border-radius: 47px;
   position: relative;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
@@ -25,7 +27,7 @@ body {
 .mobileContainer .mobile .notch {
   height: 27px;
   width: 175px;
-  background: #4a3a66;
+  background: #2a2222;
   margin: 0 auto;
   position: absolute;
   left: 0;
