@@ -1,0 +1,54 @@
+$phoneColor: #4a3a66;
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.mobileContainer {
+    height: 100vh;
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .mobile {
+        background: white;
+        height: 665px;
+        width: 324px;
+        border: 10px solid $phoneColor;
+        border-radius: 47px;
+        position: relative;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+
+        .notch {
+            height: 27px;
+            width: 175px;
+            background: $phoneColor;
+            margin: 0 auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            border-radius: 0 0 21px 21px;
+        }
+
+        .status-bar {
+            display: flex;
+            margin: 9px 13px 0;
+
+            .phone-icon {
+                i {
+                    margin: 0 3px;
+                    font-size: 12px;
+                }
+            }
+
+            .clock {
+                flex: 1;
+                font-weight: bold;
+                font-size: 13px;
+            }
+        }
+    }
+}
